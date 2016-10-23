@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.heihei.hehe.recyclerbanner.RecyclerBanner
+            android:id="@+id/r"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="update"
+            android:layout_marginTop="155dp"
+            android:onClick="update"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="355dp"
+            android:background="@color/colorPrimary"/>
+
+    </FrameLayout>
+
+</ScrollView>
